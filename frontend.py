@@ -51,7 +51,7 @@ if st.session_state.token:
 
     st.divider()
 
-    # ---------- CHARTS ----------
+    # CHARTS
     st.subheader("📊 User Analytics")
 
     admin_count = len([
@@ -80,13 +80,13 @@ if st.session_state.token:
 
     st.divider()
 
-    # ---------- USERS TABLE ----------
+    # USERS TABLE
     st.subheader("All Users")
 
     df = pd.DataFrame(users)
     st.dataframe(df, use_container_width=True)
 
-    # ---------- ADMIN EXPORT CSV ----------
+    # ADMIN EXPORT CSV
     if st.session_state.role == "admin":
 
         csv = df.to_csv(index=False).encode("utf-8")
@@ -100,7 +100,7 @@ if st.session_state.token:
 
     st.divider()
 
-    # ---------- DELETE USER ----------
+    # DELETE USER
     if st.session_state.role == "admin":
 
         st.subheader("Delete User")

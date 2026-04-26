@@ -58,6 +58,23 @@ A full-stack web application built with FastAPI, SQLite, JWT Authentication, and
 
     streamlit run frontend.py
 
+## Google Colab Public URL (Optional)
+
+Use ngrok to create a public URL for Streamlit app.
+
+    from pyngrok import ngrok
+    from google.colab import userdata
+
+    authtoken = userdata.get("NGROK_TOKEN")
+    ngrok.set_auth_token(authtoken)
+
+    public_url = ngrok.connect(8501)
+    print(public_url)
+
+Note:
+- Save your ngrok token in Colab Secrets as NGROK_TOKEN
+- Port 8501 is used for Streamlit frontend
+
 ## Default Roles
 
 - Username admin => Admin role

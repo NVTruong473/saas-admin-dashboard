@@ -1,0 +1,11 @@
+INFO:     Started server process [31427]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:45712 - "PUT /users/3 HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:34664 - "PUT /users/3 HTTP/1.1" 422 Unprocessable Entity
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [31427]

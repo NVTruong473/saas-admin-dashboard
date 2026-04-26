@@ -34,16 +34,16 @@ A full-stack web application built with FastAPI, SQLite, JWT Authentication, and
 
 ## Project Structure
 
-project6/
-├── main.py
-├── frontend.py
-├── requirements.txt
-├── README.md
-└── app/
-    ├── database.py
-    ├── models.py
-    ├── schemas.py
-    └── routes/
+project6/ \
+├── main.py \
+├── frontend.py \
+├── requirements.txt \
+├── README.md \
+└── app/ \
+    ├── database.py \
+    ├── models.py \
+    ├── schemas.py \
+    └── routes/ \
         └── users.py
 
 ## Installation

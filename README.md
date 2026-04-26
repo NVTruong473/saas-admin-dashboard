@@ -34,29 +34,29 @@ A full-stack web application built with FastAPI, SQLite, JWT Authentication, and
 
 ## Project Structure
 
-project6/
-├── main.py
-├── frontend.py
-├── requirements.txt
-├── README.md
-└── app/
-    ├── database.py
-    ├── models.py
-    ├── schemas.py
-    └── routes/
-        └── users.py
+    project6/
+    ├── main.py
+    ├── frontend.py
+    ├── requirements.txt
+    ├── README.md
+    └── app/
+        ├── database.py
+        ├── models.py
+        ├── schemas.py
+        └── routes/
+            └── users.py
 
 ## Installation
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Run Backend
 
-uvicorn main:app --reload
+    uvicorn main:app --reload
 
 ## Run Frontend
 
-streamlit run frontend.py
+    streamlit run frontend.py
 
 ## Default Roles
 
